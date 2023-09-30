@@ -1,0 +1,25 @@
+@media (max-width: 1460px) {
+  body, .container, .header, .main, .footer {
+    width: 1000px;
+  }
+  
+  .main {
+    padding: 0;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1200px) {
+  body, .container, .header, .main, .footer {
+    width: 800px;
+  }
+}
+
+@media (max-width: 800px) {
+  body, .container, .header, .main, .footer {
+    width: 600px;
+  }
+}
